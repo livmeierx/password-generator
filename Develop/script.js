@@ -1,14 +1,10 @@
 // Assignment code here
 //function to ask users password criteria
-var passCriteria = function (){
-  var specialChar = prompt("Do you want special characters included?");
+function passQuestions(){
+  window.alert("How long do you want your password? (Between 8-128)");
 
-  if (specialChar = "yes"
-
-
-
-
-}
+  
+};
 
 // Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
@@ -25,3 +21,5 @@ function writePassword() {
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
+
+passQuestions();
