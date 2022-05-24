@@ -1,9 +1,15 @@
 // Assignment code here
 //function to ask users password criteria
-function passQuestions(){
-  window.alert("How long do you want your password? (Between 8-128)");
+window.alert("Welcome to Liv's Password Generator!")
 
-  
+function passQuestions(){
+  window.alert("Let's pick some criteria.");
+
+  var length = prompt("Please enter a password length between 8 and 128 characters.");
+    charType = prompt("Please specify a character type of lowercase, uppercase, numeric or special.");
+    password = generatePassword();
+    document.getElementById("display").value = password;
+    document.getElementById("copy-btn").addEventListener("click", copyPassowrd);
 };
 
 // Get references to the #generate element
