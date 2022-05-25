@@ -9,7 +9,24 @@ function passQuestions(){
     charType = prompt("Please specify a character type of lowercase, uppercase, numeric or special.");
     password = generatePassword();
     document.getElementById("display").value = password;
-    document.getElementById("copy-btn").addEventListener("click", copyPassowrd);
+};
+//function to generate password
+function generatePassword() {
+  var charType = {
+    lowercase: 'abcdefghijklmnopqrstuvwxyz',
+    uppercase: 'ABCDEFGHIJKLMNOPQRSTUVWXYZ',
+    numeric: '0123456789',
+    special: '!"#$%&\'()*+,-./:;<=>?@[\\]^_`{|}~'
+  };
+
+  generatePassword();
+
+  var charType = charType[charType.lowercase()] || charType.lowercase;
+  var value = "";
+  for (var i = 0; i < length; i++) {
+    value += charType.char(Math.floor(math.random() * charType.length));
+  }
+  return value;
 };
 
 // Get references to the #generate element
@@ -23,9 +40,9 @@ function writePassword() {
 
   passwordText.value = password;
 
-}
+};
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
-
+  
 passQuestions();
