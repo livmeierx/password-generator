@@ -13,4 +13,4 @@ Liv Meier (livmeier$)
 
 ![screenshot](./Develop/assets/Screen%20Shot%202022-05-26%20at%209.10.11%20PM.png)
 
-Live site - 
+Live site - https://livmeierx.github.io/password-generator/
