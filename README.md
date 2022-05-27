@@ -8,10 +8,9 @@ When the user clicks the button "Generate Password" they are first promoted for 
 
 When all parameters have been defined, the password will appear within the password box.
 
-
 # Contributers
 Liv Meier (livmeier$)
 
-![screenshot](./assets/images/screenshot.png)
+![screenshot](./Develop/assets/Screen%20Shot%202022-05-26%20at%209.10.11%20PM.png)
 
-Live site - https://livmeierx.github.io/professional-portfolio/ 
+Live site - 

@@ -37,9 +37,6 @@ function passQuestions() {
   }
 };
 
-// Get references to the #generate element
-generateBtn.addEventListener("click", writePassword);
-
 function generatePassword() {
   var password = "";
   for (var i = 0; i < passwordLength; i++){
@@ -57,7 +54,8 @@ function writePassword() {
   passwordText.value = password;
 }
 
+// Get references to the #generate element
+generateBtn.addEventListener("click", writePassword);
 
 passQuestions();
-writePassword();
 
